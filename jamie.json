@@ -11,6 +11,7 @@
         "street": "3825 bruce st",
         "city": "dubbo",
         "state": "tasmania",
+        "postcode": 6000,
         "postcode": 5555
       },
       "email": "jamie.armstrong@example.com",
