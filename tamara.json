@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "tamara",
+        "last": "alves"
+      },
+      "location": {
+        "street": "4369 rua são paulo ",
+        "city": "colombo",
+        "state": "espírito santo",
+        "postcode": 41233
+      },
+      "email": "tâmara.alves@example.com",
+      "login": {
+        "username": "brownfish713",
+        "password": "ride",
+        "salt": "ZaEAtf2m",
+        "md5": "94d2efaf3e2992b2feec062088fd18a5",
+        "sha1": "29c4979bd0e4222d131b8f8e0a05dbe3387d2ca1",
+        "sha256": "c7372d7a01c3c1823c8aea46f24bdd3dee2005543ebe64bfc4d6949c3bdfa4e7"
+      },
+      "dob": "1973-06-15 16:18:06",
+      "registered": "2005-01-30 18:22:28",
+      "phone": "(53) 3809-3049",
+      "cell": "(76) 2914-1857",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/31.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/31.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/31.jpg"
+      },
+      "nat": "BR"
+    }
+  ],
+  "info": {
+    "seed": "6b5ee86647dde316",
+    "results": 1,
+    "page": 1,
+    "version": "1.1"
+  }
+}

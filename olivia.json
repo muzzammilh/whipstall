@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "olivia",
+        "last": "warren"
+      },
+      "location": {
+        "street": "9285 new street",
+        "city": "preston",
+        "state": "cumbria",
+        "postcode": "X68 0ST"
+      },
+      "email": "olivia.warren@example.com",
+      "login": {
+        "username": "bigduck326",
+        "password": "elvira",
+        "salt": "NoaYAVIP",
+        "md5": "5f56f2b6f0ce3924a7b011287c3f5e8e",
+        "sha1": "0ee6040f54fbef7a7c55b688cf79816563ac5365",
+        "sha256": "c8ada40104ddab281b70f0e5a1f534c14263372344e3fbfa552db910a5332693"
+      },
+      "dob": "1978-05-08 15:06:54",
+      "registered": "2016-04-06 02:13:46",
+      "phone": "013873 24853",
+      "cell": "0762-666-644",
+      "id": {
+        "name": "NINO",
+        "value": "ZW 90 70 15 P"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/66.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/66.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/66.jpg"
+      },
+      "nat": "GB"
+    }
+  ],
+  "info": {
+    "seed": "6bb1f81d9fddb0e8",
+    "results": 1,
+    "page": 1,
+    "version": "1.1"
+  }
+}
