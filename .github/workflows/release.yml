@@ -1,0 +1,29 @@
+name: Generate zip and upload as Release asset
+on:
+  release:
+    types: [published]
+jobs:
+  build:
+    name: Upload Release Asset
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3.3.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
+      - name: Create artifact
+        uses: montudor/action-zip@v1.0.0
+        with:
+          args: zip -X -r build.zip . -x *.git*
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3.1.2
+        with:
+            name: managed-wp-imgix
+            path: build.zip
+      - name: Upload to release
+        uses: JasonEtco/upload-to-release@master
+        with:
+          args: build.zip application/zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
